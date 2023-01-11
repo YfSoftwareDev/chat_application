@@ -14,4 +14,16 @@ class User{
     return User(json["name"], json['password']);
   }
   
+  bool isEmpty(){
+      if( name=="" && password == "")
+         return true;
+     
+      else
+        return false;
+    
+  }
+  bool isFull(){
+     if(name != "" && password != "")return true;
+     else return false;
+  }
 }

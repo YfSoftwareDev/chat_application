@@ -37,6 +37,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   flutter_bloc: ^8.1.1
+  equatable: ^2.0.5
 
 dev_dependencies:
   flutter_test:
@@ -64,7 +65,7 @@ flutter:
   assets:
     - assets/img2.png
     - assets/userRectangle.png
-    - assets/lib/data/json/users.json
+    - lib/data/json/users.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
